@@ -1,6 +1,8 @@
 package com.android.wechat_qr;
 
 import android.content.Context;
+import android.os.Environment;
+import android.util.Log;
 
 import org.opencv.wechat_qrcode.WeChatQRCode;
 
@@ -22,7 +24,7 @@ class WechatQr {
         copyAssetsOne(context, zipFile, dst);
 
         unZip(new File(dst), rootInSdk);
-        String modeDirInSdCard = rootInSdk + "qr_module/";
+        String modeDirInSdCard = rootInSdk + "wechat_module/";
 
         WeChatQRCode weChatQRCode = new WeChatQRCode(modeDirInSdCard + "detect_prototxt",
                 modeDirInSdCard + "detect_caffemodel",

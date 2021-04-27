@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->D:\VRcodeWork\project\Wechat_Qr\opencv\AndroidManifest.xml
-9        android:targetSdkVersion="26" />
+9        android:targetSdkVersion="29" />
 9-->D:\VRcodeWork\project\Wechat_Qr\opencv\AndroidManifest.xml
 10
 11</manifest>
